@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div>
     <nav class="menu-sidebar">
       <span class="menu-bars-close"><i class="fa fa-times"></i></span>
       <div class="brand-logo text-center mt-3">
@@ -69,7 +69,7 @@
             </li>
             <li class="ssubmenu">
               <router-link class="menu-item ssubmenu-main" to="/category/CUP%2FAmbulatorio">CUP/Ambulatorio</router-link>
-              
+
               <div class="menu-sub-item menu-sub-item3 shadow cpu-ambulance ssubmenu-container">
                 <div class="popup-tip-container"><div class="popup-tip"></div></div>
                 <ul>

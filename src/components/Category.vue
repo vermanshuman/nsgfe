@@ -1,7 +1,5 @@
 <template>
-  <div class="home">
-    <sidebar :topBar="true" />
-
+  <div>
     <div class="main-content" v-if="isCategoryHome(categoryName) && !showDettaglioGrid">
       <div v-for="data in getMenusData(categoryName)" v-bind:key="data">
         <div class="top-bar mx-4 mt-4">
@@ -122,7 +120,6 @@
 
 
 <script>
-import sidebar from '../components/sidebar';
 import Card from '@/components/Card';
 import Dettaglio from '@/components/Dettaglio';
 import Performance from '@/components/Performance';
@@ -139,7 +136,7 @@ export default {
       psCategory: null
     }
   },
-  components: {sidebar, Card, Dettaglio, Performance, Settimana, Calcoloc},
+  components: {Card, Dettaglio, Performance, Settimana, Calcoloc},
   computed:{
     categoryName(){
       return this.$route.params.category;

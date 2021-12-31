@@ -7,22 +7,21 @@
         </v-app-bar>
     </v-app>  -->
 
-    <div class="home" style="background: #f3f4f4 !important;">
-    <sidebar :topBar="true" ></sidebar>
+    <div>
     <dashboard></dashboard>
      </div>
    
 </template>
 <script>
 import dashboard from '../components/dashboard.vue';
-import sidebar from '../components/sidebar';
+
 export default{
   data(){
     return{
     };
   },
   components:{
-    sidebar,
+
     dashboard
   },
   methods: {

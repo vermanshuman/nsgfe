@@ -4,6 +4,7 @@ import Login from "./views/Login.vue";
 import Home from "./views/Home.vue";
 import NSGCoreIndicators from "./views/NSGCoreIndicators";
 import Category from "./components/Category";
+import DefaultContainer from "./containers/DefaultContainer";
 
 
 Vue.use(Router);
@@ -32,22 +33,29 @@ export default new Router({
             component:Login
         },
         {
-            path:"/home",
+            path:"/",
             name:'home',
-            component:Home,
+            redirect: '/home',
+            component:DefaultContainer,
             beforeEnter : guardCommanroute,
+            children: [
+                {
+                    path: '/home',
+                    name: 'Home',
+                    component: Home
+                },
+                {
+                    path:'/category/:category',
+                    name:'category',
+                    component:Category
+                },
+                {
+                    path:"/nsg-core-indicators",
+                    name:'nsg-core-indicators',
+                    component:NSGCoreIndicators,
+                }
+            ]
         },
-        {
-            path:'/category/:category',
-            name:'category',
-            component:Category,
-            beforeEnter : guardCommanroute,
-        },
-        {
-            path:"/nsg-core-indicators",
-            name:'nsg-core-indicators',
-            component:NSGCoreIndicators,
-            beforeEnter : guardCommanroute,
-        }
+
     ]
 })
