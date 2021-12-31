@@ -190,6 +190,31 @@
             </li>
           </ul>
         </div>
+        <div class="menu-item menu-item6 mt-4 mb-1 shadow" id="6">
+          <div class="menu-item-text" @click="redirectToNsgCoreIndicators('nsg-core-indicators')">
+            <div style="margin-top: 14px;">NSG – INDICATORI CORE</div>
+          </div>
+          <div class="menu-item-icon">
+            <img src="../assets/image/3.png" alt="" />
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="menu-sub-item menu-sub-item6 shadow">
+          <ul>
+            <li>
+              <router-link to="/nsg-core-indicators">PREVENZIONE COLLETTIVA E SANITÀ PUBBLICA</router-link>
+            </li>
+            <li>
+              <router-link to="/nsg-core-indicators">AREA DISTRETTUALE</router-link>
+            </li>
+            <li>
+              <router-link to="/nsg-core-indicators">CONTESTO ED EQUITA</router-link>
+            </li>
+            <li>
+              <router-link to="/nsg-core-indicators">ASSISTENZA OSPEDALIERA</router-link>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
     <div class="main-content" style="height: auto;display: none;" :class="{show: topBar}">
@@ -272,6 +297,9 @@ export default{
             path: '/category/' + categoryName,
           }
       )
+    },
+    redirectToNsgCoreIndicators(path) {
+      this.$router.push({ name: path });
     }
   },
 

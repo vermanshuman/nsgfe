@@ -2,6 +2,7 @@ import Vue from "vue";
 import Router from "vue-router";
 import Login from "./views/Login.vue";
 import Home from "./views/Home.vue";
+import NSGCoreIndicators from "./views/NSGCoreIndicators";
 import Category from "./components/Category";
 
 
@@ -40,6 +41,12 @@ export default new Router({
             path:'/category/:category',
             name:'category',
             component:Category,
+            beforeEnter : guardCommanroute,
+        },
+        {
+            path:"/nsg-core-indicators",
+            name:'nsg-core-indicators',
+            component:NSGCoreIndicators,
             beforeEnter : guardCommanroute,
         }
     ]

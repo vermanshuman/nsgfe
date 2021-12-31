@@ -363,6 +363,28 @@ body {
     border-bottom: 1px solid #F55674;
 }
 
+.menu-sidebar .menu-item6 {
+    background: #D6E3E3;
+    border-radius: 10px;
+    border:1px solid #F55674;
+}
+.menu-sidebar .menu-item6 .menu-item-icon{
+    padding: 5px 12px 5px 12px;
+}
+.menu-sidebar .menu-item6:not(.selected) .menu-item-icon{
+    background: #D6E3E3;
+}
+.menu-sidebar .menu-item6:not(.selected) .menu-item-text{
+    color: #F55674;
+}
+
+.menu-sidebar .menu-sub-item6 {
+    border: 1px solid #F55674;
+}
+.menu-sidebar .menu-sub-item6 ul li{
+    border-bottom: 1px solid #F55674;
+}
+
 .menu-bars-close{
     display: none;
     font-size: 20px;
