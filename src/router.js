@@ -5,6 +5,12 @@ import Home from "./views/Home.vue";
 import NSGCoreIndicators from "./views/NSGCoreIndicators";
 import Category from "./components/Category";
 import DefaultContainer from "./containers/DefaultContainer";
+import ManagementArea from "./views/ManagementArea";
+import PharmacyArea from "./views/PharmacyArea";
+import PNE from "./views/PNE";
+import Prevention from "./views/Prevention";
+import Staff from "./views/Staff";
+import StatusOfPayments from "./views/StatusOfPayments";
 
 
 Vue.use(Router);
@@ -53,6 +59,36 @@ export default new Router({
                     path:"/nsg-core-indicators",
                     name:'nsg-core-indicators',
                     component:NSGCoreIndicators,
+                },
+                {
+                    path:"/management-area",
+                    name:'management-area',
+                    component:ManagementArea,
+                },
+                {
+                    path:"/pharmacy-area",
+                    name:'pharmacy-area',
+                    component:PharmacyArea,
+                },
+                {
+                    path:"/pne",
+                    name:'pne',
+                    component:PNE,
+                },
+                {
+                    path:"/prevention",
+                    name:'prevention',
+                    component:Prevention,
+                },
+                {
+                    path:"/staff",
+                    name:'staff',
+                    component:Staff,
+                },
+                {
+                    path:"/status-of-payment",
+                    name:'status-of-payment',
+                    component:StatusOfPayments,
                 }
             ]
         },

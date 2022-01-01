@@ -191,7 +191,7 @@
           </ul>
         </div>
         <div class="menu-item menu-item6 mt-4 mb-1 shadow" id="6">
-          <div class="menu-item-text" @click="redirectToNsgCoreIndicators('nsg-core-indicators')">
+          <div class="menu-item-text" @click="redirectToPath('nsg-core-indicators')">
             <div style="margin-top: 14px;">NSG – INDICATORI CORE</div>
           </div>
           <div class="menu-item-icon">
@@ -214,6 +214,66 @@
               <router-link to="/nsg-core-indicators">ASSISTENZA OSPEDALIERA</router-link>
             </li>
           </ul>
+        </div>
+
+        <div class="menu-item menu-item6 mt-4 mb-1 shadow" id="7">
+          <div class="menu-item-text" @click="redirectToPath('management-area')">
+            <div style="margin-top: 5px;">AREA GESTIONALE – DCA 67/2019</div>
+          </div>
+          <div class="menu-item-icon">
+            <img src="../assets/image/3.png" alt="" />
+          </div>
+          <div class="clearfix"></div>
+        </div>
+
+        <div class="menu-item menu-item6 mt-4 mb-1 shadow" id="8">
+          <div class="menu-item-text" @click="redirectToPath('pharmacy-area')">
+            <div style="margin-top: 14px;">AREA FARMACIA</div>
+          </div>
+          <div class="menu-item-icon">
+            <img src="../assets/image/3.png" alt="" />
+          </div>
+          <div class="clearfix"></div>
+        </div>
+
+        <div class="menu-item menu-item6 mt-4 mb-1 shadow" id="9">
+          <div class="menu-item-text" @click="redirectToPath('pne')">
+            <div style="margin-top: 14px;">PNE</div>
+          </div>
+          <div class="menu-item-icon">
+            <img src="../assets/image/3.png" alt="" />
+          </div>
+          <div class="clearfix"></div>
+        </div>
+
+        <div class="menu-item menu-item6 mt-4 mb-1 shadow" id="10">
+          <div class="menu-item-text" @click="redirectToPath('prevention')">
+            <div style="margin-top: 14px;">PREVENZIONE</div>
+          </div>
+          <div class="menu-item-icon">
+            <img src="../assets/image/3.png" alt="" />
+          </div>
+          <div class="clearfix"></div>
+        </div>
+
+        <div class="menu-item menu-item6 mt-4 mb-1 shadow" id="11">
+          <div class="menu-item-text" @click="redirectToPath('status-of-payment')">
+            <div style="margin-top: 14px;">STATO DEI PAGAMENTI</div>
+          </div>
+          <div class="menu-item-icon">
+            <img src="../assets/image/3.png" alt="" />
+          </div>
+          <div class="clearfix"></div>
+        </div>
+
+        <div class="menu-item menu-item6 mt-4 mb-1 shadow" id="12">
+          <div class="menu-item-text" @click="redirectToPath('staff')">
+            <div style="margin-top: 14px;">PERSONALE</div>
+          </div>
+          <div class="menu-item-icon">
+            <img src="../assets/image/3.png" alt="" />
+          </div>
+          <div class="clearfix"></div>
         </div>
       </div>
     </nav>
@@ -298,7 +358,7 @@ export default{
           }
       )
     },
-    redirectToNsgCoreIndicators(path) {
+    redirectToPath(path) {
       this.$router.push({ name: path });
     }
   },
