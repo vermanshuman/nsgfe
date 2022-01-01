@@ -1,58 +1,59 @@
 <template>
   <div class="main-content">
-    <div class="clearfix"></div>
-    <section class="mx-4 mt-5">
-      <div class="row">
-        <div class="col-lg-3 col-md-4 col-sm-2 card-mb">
-          <div class="img-a dashboard-box-widget" @click="redirectToPath('/category/CONFIGURAZIONI')">
-            CONFIGURAZIONI
+    <div class="container">
+      <div class="mx-4 dashboard-page-mt">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-2 card-mb">
+            <div class="img-a dashboard-box-widget" @click="redirectToPath('/category/CONFIGURAZIONI')">
+              CONFIGURAZIONI
+            </div>
           </div>
-        </div>
 
-        <div class="col-lg-3 col-md-4 col-sm-2 card-mb">
-          <div class="img-b dashboard-box-widget" @click="redirectToPath('/nsg-core-indicators')">
-            NSG – INDICATORI CORE
+          <div class="col-lg-3 col-md-4 col-sm-2 card-mb">
+            <div class="img-b dashboard-box-widget" @click="redirectToPath('/nsg-core-indicators')">
+              NSG – INDICATORI CORE
+            </div>
           </div>
-        </div>
 
-        <div class="col-lg-3 col-md-4 col-sm-2 card-mb">
-          <div class="img-c dashboard-box-widget" @click="redirectToPath('/management-area')">
-            AREA GESTIONALE – DCA 67/2019
+          <div class="col-lg-3 col-md-4 col-sm-2 card-mb">
+            <div class="img-c dashboard-box-widget" @click="redirectToPath('/management-area')">
+              AREA GESTIONALE – DCA 67/2019
+            </div>
           </div>
-        </div>
 
-        <div class="col-lg-3 col-md-4 col-sm-2 card-mb" @click="redirectToPath('/pharmacy-area')">
-          <div class="img-a  dashboard-box-widget">
-            AREA FARMACIA
+          <div class="col-lg-3 col-md-4 col-sm-2 card-mb" @click="redirectToPath('/pharmacy-area')">
+            <div class="img-a  dashboard-box-widget">
+              AREA FARMACIA
+            </div>
           </div>
-        </div>
 
-        <div class="col-lg-3 col-md-4 col-sm-2 card-mb" @click="redirectToPath('/pne')">
-          <div class="img-c dashboard-box-widget">
-            PNE
+          <div class="col-lg-3 col-md-4 col-sm-2 card-mb" @click="redirectToPath('/pne')">
+            <div class="img-c dashboard-box-widget">
+              PNE
+            </div>
           </div>
-        </div>
 
-        <div class="col-lg-3 col-md-4 col-sm-2 card-mb" @click="redirectToPath('/prevention')">
-          <div class="img-a dashboard-box-widget">
-            PREVENZIONE
+          <div class="col-lg-3 col-md-4 col-sm-2 card-mb" @click="redirectToPath('/prevention')">
+            <div class="img-a dashboard-box-widget">
+              PREVENZIONE
+            </div>
           </div>
-        </div>
 
-        <div class="col-lg-3 col-md-4 col-sm-2 card-mb" @click="redirectToPath('/status-of-payment')">
-          <div class="img-b dashboard-box-widget">
-            STATO DEI PAGAMENTI
+          <div class="col-lg-3 col-md-4 col-sm-2 card-mb" @click="redirectToPath('/status-of-payment')">
+            <div class="img-b dashboard-box-widget">
+              STATO DEI PAGAMENTI
+            </div>
           </div>
-        </div>
 
-        <div class="col-lg-3 col-md-4 col-sm-2 card-mb" @click="redirectToPath('/staff')">
-          <div class="img-c dashboard-box-widget">
-            PERSONALE
+          <div class="col-lg-3 col-md-4 col-sm-2 card-mb" @click="redirectToPath('/staff')">
+            <div class="img-c dashboard-box-widget">
+              PERSONALE
+            </div>
           </div>
-        </div>
 
+        </div>
       </div>
-    </section>
+    </div>
   </div>
 </template>
 <script>
@@ -87,6 +88,10 @@ export default {
   text-shadow: 2px 2px lightgray;
   display: flex;
   align-items: center;
+}
+
+.dashboard-page-mt {
+  margin-top: 48px;
 }
 
 .card-mb {
