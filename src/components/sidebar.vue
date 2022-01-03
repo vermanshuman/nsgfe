@@ -8,159 +8,7 @@
         </router-link>
       </div>
       <div class="mt-4 menu-btm" style="margin-bottom: 73px;">
-        <div class="menu-item menu-item2 mt-1 mb-1 shadow" id="1">
-          <div class="menu-item-text" @click="redirectToHome('PREVENZIONE COLLETTIVA')">
-            <div style="margin-top: 5px;">prevenzione collettiva</div>
-            <div style="margin-top: -8px;">e sanità pubblica</div>
-          </div>
-          <div class="menu-item-icon">
-            <img src="../assets/image/1.png" alt="" />
-          </div>
-          <div class="clearfix"></div>
-        </div>
-        <div class="menu-sub-item menu-sub-item2 shadow">
-          <ul>
-            <li>
-              <router-link to="/category/Anagrafe Vaccinale">Anagrafe Vaccinale</router-link>
-            </li>
-            <li>
-              <router-link to="/category/INAIL, ISTAT e INPS">INAIL, ISTAT e INPS</router-link>
-            </li>
-            <li>
-              <router-link to="/category/Piano Regionale per la Prevenzione">Piano Regionale per la Prevenzione</router-link>
-            </li>
-            <li>
-              <router-link to="/category/Piattaforma VETINFO">Piattaforma VETINFO</router-link>
-            </li>
-            <li>
-              <router-link to="/category/NSIS - PNR">NSIS - PNR</router-link>
-            </li>
-            <li>
-              <router-link to="/category/Banca dati CROGM - NSIS vigilanza alimenti">Banca dati CROGM - NSIS vigilanza alimenti</router-link>
-            </li>
-            <li>
-              <router-link to="/category/ISTAT - PASSI">ISTAT - PASSI</router-link>
-            </li>
-            <li>
-              <router-link to="/category/Sistema Informativo screening">Sistema Informativo screening</router-link>
-            </li>
-          </ul>
-        </div>
-        <div class="menu-item menu-item3 mt-4 mb-1 shadow" id="2">
-          <div class="menu-item-text" @click="redirectToHome('AREA DISTRETTUALE')">
-             <div style="margin-top: 5px;">area</div>
-              <div style="margin-top: -8px;">distrettuale</div>
-          </div>
-          <div class="menu-item-icon">
-            <img src="../assets/image/2.png" alt="" />
-          </div>
-          <div class="clearfix"></div>
-        </div>
-        <div class="menu-sub-item menu-sub-item3 shadow">
-          <ul>
-            <li @click="routeTo('/category/SIO, Anagrafe tributaria')">
-              <router-link to="#">SIO, Anagrafe tributaria</router-link>
-            </li>
-            <li>
-              <router-link to="/category/Sistema ADT">Sistema ADT</router-link>
-            </li>
-            <li>
-              <router-link to="/category/Pronto soccorso">Pronto soccorso</router-link>
-            </li>
-            <li class="ssubmenu">
-              <router-link class="menu-item ssubmenu-main" to="/category/CUP%2FAmbulatorio">CUP/Ambulatorio</router-link>
-
-              <div class="menu-sub-item menu-sub-item3 shadow cpu-ambulance ssubmenu-container">
-                <div class="popup-tip-container"><div class="popup-tip"></div></div>
-                <ul>
-                  <li>
-                    <router-link class="ssubmenu-item" to="/category/PERFORMANCE EX ANTE">PERFORMANCE EX ANTE</router-link>
-                  </li>
-                  <li>
-                    <router-link class="ssubmenu-item" to="/category/PERFORMANCE EX POST">PERFORMANCE EX POST</router-link>
-                  </li>
-                  <li>
-                    <router-link class="ssubmenu-item" to="/category/PERFORMANCE SETTIMANE INDICE">PERFORMANCE SETTIMANE INDICE</router-link>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <router-link to="/category/Farmacia">Farmacia</router-link>
-            </li>
-            <li>
-              <router-link to="/category/CEDAP">CEDAP</router-link>
-            </li>
-            <li>
-              <router-link to="/category/SIAD">SIAD</router-link>
-            </li>
-            <li>
-              <router-link to="/category/ISTAT - Modello D12">ISTAT - Modello D12</router-link>
-            </li>
-            <li>
-              <router-link to="/category/ADT, Flussi SDO">ADT, Flussi SDO</router-link>
-            </li>
-            <li>
-              <router-link to="/category/Hospice">Hospice</router-link>
-            </li>
-          </ul>
-        </div>
-        <div class="menu-item menu-item4 mt-4 mb-1 shadow" id="3">
-          <div class="menu-item-text" @click="redirectToHome('CONESTO ED EQUITA')">
-            <div style="margin-top: 5px;">contesto</div>
-            <div style="margin-top: -8px;">ed equita</div>
-          </div>
-          <div class="menu-item-icon">
-            <img src="../assets/image/3.png" alt="" />
-          </div>
-          <div class="clearfix"></div>
-        </div>
-        <div class="menu-sub-item menu-sub-item4 shadow">
-          <ul>
-            <li>
-              <router-link to="/category/Indagine ISTAT">Indagine ISTAT</router-link>
-            </li>
-            <li>
-              <router-link to="/category/OKkio alla SALUTE">OKkio alla SALUTE</router-link>
-            </li>
-            <li>
-              <router-link to="/category/Passi d’Argento (PdA)">Passi d’Argento (PdA)</router-link>
-            </li>
-          </ul>
-        </div>
-        <div class="menu-item menu-item5 mt-4 mb-1 shadow" id="4">
-          <div class="menu-item-text" @click="redirectToHome('ASSISTENZA OSPEDALIERA')">
-            <div style="margin-top: 5px;">assistenza</div>
-            <div style="margin-top: -8px;">ospedaliera</div>
-          </div>
-          <div class="menu-item-icon">
-            <img src="../assets/image/4.png" alt="" />
-          </div>
-          <div class="clearfix"></div>
-        </div>
-        <div class="menu-sub-item menu-sub-item5 shadow">
-          <ul>
-            <li>
-              <router-link to="/category/SDO">SDO</router-link>
-            </li>
-            <li>
-              <router-link to="/category/Blocco Operatorio">Blocco Operatorio</router-link>
-            </li>
-            <li>
-              <router-link to="/category/Trasfusionale">Trasfusionale</router-link>
-            </li>
-            <li>
-              <router-link to="/category/Centro Regionale Trapianti">Centro Regionale Trapianti</router-link>
-            </li>
-            <li>
-              <router-link to="/category/SIO">SIO</router-link>
-            </li>
-            <li>
-              <router-link to="/category/CEDAP">CEDAP</router-link>
-            </li>
-          </ul>
-        </div>
-        <div class="menu-item menu-item1 mt-4 mb-1 shadow" id="5">
+        <div class="main-parent menu-item menu-item1 mt-4 mb-1 shadow" id="5">
           <div class="menu-item-text" @click="redirectToHome('CONFIGURAZIONI')">
             <div style="margin-top: 14px;">configurazioni</div>
           </div>
@@ -169,11 +17,11 @@
           </div>
           <div class="clearfix"></div>
         </div>
-        <div class="menu-sub-item menu-sub-item1 shadow">
+        <div class="first-child menu-sub-item menu-sub-item1 shadow">
           <ul>
             <li class="ssubmenu">
-              <router-link class="menu-item ssubmenu-main" to="/category/CUP%2FAmbulatorio%20">CUP/Ambulatorio</router-link>
-              <div class="menu-sub-item menu-sub-item1 shadow cpu-ambulance ssubmenu-container">
+              <router-link class="first-child-item menu-item ssubmenu-main" to="/category/CUP%2FAmbulatorio%20">CUP/Ambulatorio</router-link>
+              <div class="first-child-sub-item menu-sub-item menu-sub-item1 shadow cpu-ambulance ssubmenu-container">
                 <div class="popup-tip-container"><div class="popup-tip"></div></div>
                 <ul>
                   <li>
@@ -190,7 +38,8 @@
             </li>
           </ul>
         </div>
-        <div class="menu-item menu-item6 mt-4 mb-1 shadow" id="6">
+        
+        <div class="main-parent menu-item menu-item6 mt-4 mb-1 shadow test" id="6">
           <div class="menu-item-text" @click="redirectToPath('nsg-core-indicators')">
             <div style="margin-top: 14px;">NSG – INDICATORI CORE</div>
           </div>
@@ -199,21 +48,164 @@
           </div>
           <div class="clearfix"></div>
         </div>
-        <div class="menu-sub-item menu-sub-item6 shadow">
-          <ul>
-            <li>
-              <router-link to="/nsg-core-indicators">PREVENZIONE COLLETTIVA E SANITÀ PUBBLICA</router-link>
-            </li>
-            <li>
-              <router-link to="/nsg-core-indicators">AREA DISTRETTUALE</router-link>
-            </li>
-            <li>
-              <router-link to="/nsg-core-indicators">CONTESTO ED EQUITA</router-link>
-            </li>
-            <li>
-              <router-link to="/nsg-core-indicators">ASSISTENZA OSPEDALIERA</router-link>
-            </li>
-          </ul>
+        <div class="first-child menu-sub-item menu-sub-item6 shadow">
+
+          <div class="first-child-item menu-item menu-item2 mt-1 mb-1 shadow" id="1">
+            <div class="menu-item-text" @click="redirectToHome('PREVENZIONE COLLETTIVA')">
+              <div style="margin-top: 5px;">prevenzione collettiva</div>
+              <div style="margin-top: -8px;">e sanità pubblica</div>
+            </div>
+            <div class="menu-item-icon">
+              <img src="../assets/image/1.png" alt="" />
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="first-child-sub-item menu-sub-item menu-sub-item2 shadow">
+            <ul>
+              <li>
+                <router-link to="/category/Anagrafe Vaccinale">Anagrafe Vaccinale</router-link>
+              </li>
+              <li>
+                <router-link to="/category/INAIL, ISTAT e INPS">INAIL, ISTAT e INPS</router-link>
+              </li>
+              <li>
+                <router-link to="/category/Piano Regionale per la Prevenzione">Piano Regionale per la Prevenzione</router-link>
+              </li>
+              <li>
+                <router-link to="/category/Piattaforma VETINFO">Piattaforma VETINFO</router-link>
+              </li>
+              <li>
+                <router-link to="/category/NSIS - PNR">NSIS - PNR</router-link>
+              </li>
+              <li>
+                <router-link to="/category/Banca dati CROGM - NSIS vigilanza alimenti">Banca dati CROGM - NSIS vigilanza alimenti</router-link>
+              </li>
+              <li>
+                <router-link to="/category/ISTAT - PASSI">ISTAT - PASSI</router-link>
+              </li>
+              <li>
+                <router-link to="/category/Sistema Informativo screening">Sistema Informativo screening</router-link>
+              </li>
+            </ul>
+          </div>
+
+          <div class="first-child-item menu-item menu-item3 mt-4 mb-1 shadow" id="2">
+            <div class="menu-item-text" @click="redirectToHome('AREA DISTRETTUALE')">
+              <div style="margin-top: 5px;">area</div>
+              <div style="margin-top: -8px;">distrettuale</div>
+            </div>
+            <div class="menu-item-icon">
+              <img src="../assets/image/2.png" alt="" />
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="first-child-sub-item menu-sub-item menu-sub-item3 shadow">
+            <ul>
+              <li @click="routeTo('/category/SIO, Anagrafe tributaria')">
+                <router-link to="#">SIO, Anagrafe tributaria</router-link>
+              </li>
+              <li>
+                <router-link to="/category/Sistema ADT">Sistema ADT</router-link>
+              </li>
+              <li>
+                <router-link to="/category/Pronto soccorso">Pronto soccorso</router-link>
+              </li>
+              <li class="ssubmenu">
+                <router-link class="menu-item ssubmenu-main" to="/category/CUP%2FAmbulatorio">CUP/Ambulatorio</router-link>
+
+                <div class="menu-sub-item menu-sub-item3 shadow cpu-ambulance ssubmenu-container">
+                  <div class="popup-tip-container"><div class="popup-tip"></div></div>
+                  <ul>
+                    <li>
+                      <router-link class="ssubmenu-item" to="/category/PERFORMANCE EX ANTE">PERFORMANCE EX ANTE</router-link>
+                    </li>
+                    <li>
+                      <router-link class="ssubmenu-item" to="/category/PERFORMANCE EX POST">PERFORMANCE EX POST</router-link>
+                    </li>
+                    <li>
+                      <router-link class="ssubmenu-item" to="/category/PERFORMANCE SETTIMANE INDICE">PERFORMANCE SETTIMANE INDICE</router-link>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <router-link to="/category/Farmacia">Farmacia</router-link>
+              </li>
+              <li>
+                <router-link to="/category/CEDAP">CEDAP</router-link>
+              </li>
+              <li>
+                <router-link to="/category/SIAD">SIAD</router-link>
+              </li>
+              <li>
+                <router-link to="/category/ISTAT - Modello D12">ISTAT - Modello D12</router-link>
+              </li>
+              <li>
+                <router-link to="/category/ADT, Flussi SDO">ADT, Flussi SDO</router-link>
+              </li>
+              <li>
+                <router-link to="/category/Hospice">Hospice</router-link>
+              </li>
+            </ul>
+          </div>
+
+          <div class="first-child-item menu-item menu-item4 mt-4 mb-1 shadow" id="3">
+            <div class="menu-item-text" @click="redirectToHome('CONESTO ED EQUITA')">
+              <div style="margin-top: 5px;">contesto</div>
+              <div style="margin-top: -8px;">ed equita</div>
+            </div>
+            <div class="menu-item-icon">
+              <img src="../assets/image/3.png" alt="" />
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="first-child-sub-item menu-sub-item menu-sub-item4 shadow">
+            <ul>
+              <li>
+                <router-link to="/category/Indagine ISTAT">Indagine ISTAT</router-link>
+              </li>
+              <li>
+                <router-link to="/category/OKkio alla SALUTE">OKkio alla SALUTE</router-link>
+              </li>
+              <li>
+                <router-link to="/category/Passi d’Argento (PdA)">Passi d’Argento (PdA)</router-link>
+              </li>
+            </ul>
+          </div>
+
+          <div class="first-child-item menu-item menu-item5 mt-4 mb-1 shadow" id="4">
+            <div class="menu-item-text" @click="redirectToHome('ASSISTENZA OSPEDALIERA')">
+              <div style="margin-top: 5px;">assistenza</div>
+              <div style="margin-top: -8px;">ospedaliera</div>
+            </div>
+            <div class="menu-item-icon">
+              <img src="../assets/image/4.png" alt="" />
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="first-child-sub-item menu-sub-item menu-sub-item5 shadow">
+            <ul>
+              <li>
+                <router-link to="/category/SDO">SDO</router-link>
+              </li>
+              <li>
+                <router-link to="/category/Blocco Operatorio">Blocco Operatorio</router-link>
+              </li>
+              <li>
+                <router-link to="/category/Trasfusionale">Trasfusionale</router-link>
+              </li>
+              <li>
+                <router-link to="/category/Centro Regionale Trapianti">Centro Regionale Trapianti</router-link>
+              </li>
+              <li>
+                <router-link to="/category/SIO">SIO</router-link>
+              </li>
+              <li>
+                <router-link to="/category/CEDAP">CEDAP</router-link>
+              </li>
+            </ul>
+          </div>
+
         </div>
 
         <div class="menu-item menu-item6 mt-4 mb-1 shadow" id="7">
@@ -304,8 +296,28 @@
 export default{
   props: ['topBar'],
   mounted () {
-    window.$(".menu-item").click(function(){
-      var selected = window.$(this).attr('id');
+    window.$(".main-parent").click(function(){
+      let selected = window.$(this).attr('id');
+      if(window.$(this).hasClass('selected')) {
+        window.$(this).removeClass('selected');
+      } else {
+        if(window.$(this).next('.first-child.menu-sub-item').length>0) {
+          window.$(this).addClass('selected');
+        }
+      }
+      window.$(".main-parent.selected").each(function() {
+        var prevSelected = window.$(this).attr('id');
+        if(selected!=undefined && selected != prevSelected) {
+          window.$(this).next('.first-child.menu-sub-item').slideToggle();
+          window.$(this).removeClass('selected');
+        }
+      });
+      window.$(this).next('.first-child.menu-sub-item').slideToggle();
+    });
+
+
+    window.$(".menu-item.first-child-item").click(function(){
+      let selected1 = window.$(this).attr('id');
       if(window.$(this).hasClass('selected')) {
         window.$(this).removeClass('selected');
       } else {
@@ -313,16 +325,14 @@ export default{
           window.$(this).addClass('selected');
         }
       }
-      window.$(".menu-item.selected").each(function() {
-        var prevSelected = window.$(this).attr('id');
-        console.log(selected);
-        console.log(window.$(this).attr('id'));
-        if(selected!=undefined && selected != prevSelected) {
-          window.$(this).next('.menu-sub-item').slideToggle();
+      window.$(".menu-item.first-child-item.selected").each(function() {
+        let prevSelected1 = window.$(this).attr('id');
+        if(selected1!=undefined && selected1 != prevSelected1) {
+          window.$(this).next('.menu-sub-item.first-child-sub-item').slideToggle();
           window.$(this).removeClass('selected');
         }
       });
-      window.$(this).next('.menu-sub-item').slideToggle();
+      window.$(this).next('.menu-sub-item.first-child-sub-item').slideToggle();
     });
     window.$(".menu-item").click(function(){
       if(window.$('.ssubmenu-main').hasClass('selected')){
