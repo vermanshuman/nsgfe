@@ -18,8 +18,11 @@ export default {
     dashboard
   },
   mounted() {
-    const idx = 6
-    window.$(".menu-item"+idx).addClass('selected').next('.menu-sub-item').slideToggle();
+    if(localStorage.getItem('nsgCoreIndicatorsIsFirstRouteOnReload')) {
+      const idx = 6
+      window.$(".menu-item"+idx).addClass('selected').next('.menu-sub-item').slideToggle();
+      localStorage.removeItem('nsgCoreIndicatorsIsFirstRouteOnReload');
+    }
   }
 }
 </script>

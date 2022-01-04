@@ -21,8 +21,11 @@ export default {
 
   },
   created() {
+    console.log('this.$route.name', this.$route.name)
     if(this.$route.name === 'category') {
       localStorage.setItem('categoryIsFirstRouteOnReload', 'true')
+    } else if(this.$route.name === 'nsg-core-indicators') {
+      localStorage.setItem('nsgCoreIndicatorsIsFirstRouteOnReload', 'true')
     }
   }
 }
