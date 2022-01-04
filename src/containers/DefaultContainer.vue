@@ -19,6 +19,11 @@ export default {
   },
   computed: {
 
+  },
+  created() {
+    if(this.$route.name === 'category') {
+      localStorage.setItem('categoryIsFirstRouteOnReload', 'true')
+    }
   }
 }
 </script>

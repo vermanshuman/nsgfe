@@ -17,6 +17,10 @@ export default {
   components:{
     dashboard
   },
+  mounted() {
+    const idx = 6
+    window.$(".menu-item"+idx).addClass('selected').next('.menu-sub-item').slideToggle();
+  }
 }
 </script>
 

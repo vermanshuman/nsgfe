@@ -243,7 +243,10 @@ export default {
       || this.categoryName=="SIO" || this.categoryName=="CEDAP") {
       idx = 5;
     }
-    window.$(".menu-item"+idx).addClass('selected').next('.menu-sub-item').slideToggle();
+    if(localStorage.getItem('categoryIsFirstRouteOnReload')) {
+      window.$(".menu-item"+idx).addClass('selected').next('.menu-sub-item').slideToggle();
+      localStorage.removeItem('categoryIsFirstRouteOnReload');
+    }
     this.getData();
     this.$el.addEventListener('click', this.onClick);
     if(this.categoryName === "PERFORMANCE EX ANTE" || this.categoryName === "PERFORMANCE EX POST" || this.categoryName === "PERFORMANCE SETTIMANE INDICE") {

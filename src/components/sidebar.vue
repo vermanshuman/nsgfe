@@ -48,12 +48,14 @@
           </div>
           <div class="clearfix"></div>
         </div>
-        <div class="first-child menu-sub-item menu-sub-item6 shadow">
+        <!--  removed class from menu-sub-item6-->
+        <div class="first-child menu-sub-item  shadow">
 
           <div class="first-child-item menu-item menu-item2 mt-1 mb-1 shadow" id="1">
-            <div class="menu-item-text" @click="redirectToHome('PREVENZIONE COLLETTIVA')">
-              <div style="margin-top: 5px;">prevenzione collettiva</div>
-              <div style="margin-top: -8px;">e sanità pubblica</div>
+            <div class="menu-item-text" @click="redirectToHome('PREVENZIONE COLLETTIVA')" style="height: 55px">
+              <div style="margin-top: 0px;">prevenzione</div>
+              <div style="margin-top: -8px;">collettiva e sanità</div>
+              <div style="margin-top: -8px;">pubblica</div>
             </div>
             <div class="menu-item-icon">
               <img src="../assets/image/1.png" alt="" />
