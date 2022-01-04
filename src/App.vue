@@ -17,3 +17,8 @@ export default{
   },
 }
 </script>
+<style lang="scss">
+  .v-main {
+    align-items: center;
+  }
+</style>
