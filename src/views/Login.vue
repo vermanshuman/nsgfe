@@ -1,6 +1,6 @@
 <template>
-<v-app>
-  <v-content class="login_wrp">
+  <div class="login-page-container">
+  <div class="login_wrp">
     <v-form>
     <v-img class="logo" width="75%" style="margin-left: 12.5%;" src="@/assets/image/logo_NSG.png"></v-img>
       <div class="error-box" v-if="error" ref="errorBox">
@@ -55,13 +55,17 @@
         <v-btn class="login_btn" @click="login">Accedi</v-btn>
         <a href="#" class="forgot_pass">Password dimenticata</a>
       </v-form>
-  </v-content>
- 
-</v-app>
+  </div>
+  </div>
 </template>
 <style>
   body > div {
     height: 100vh;
+  }
+  .login-page-container {
+    display: flex;
+    align-items: center;
+    height: 100vh
   }
 </style>
 <script>

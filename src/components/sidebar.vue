@@ -212,7 +212,8 @@
 
         <div class="menu-item menu-item6 mt-4 mb-1 shadow" id="7">
           <div class="menu-item-text" @click="redirectToPath('management-area')">
-            <div style="margin-top: 5px;">AREA GESTIONALE – DCA 67/2019</div>
+            <div style="margin-top: 5px;">AREA GESTIONALE – DCA</div>
+            <div style="margin-top: -8px;">67/2019</div>
           </div>
           <div class="menu-item-icon">
             <img src="../assets/image/3.png" alt="" />
