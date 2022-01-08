@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <h1 class="text-center">Status Of Payment</h1>
+    <h1 class="text-center">STATO DEI PAGAMENTI</h1>
   </div>
 </template>
 

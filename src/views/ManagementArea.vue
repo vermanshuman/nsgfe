@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <h1 class="text-center"> Management Area</h1>
+    <h1 class="text-center">AREA GESTIONALE – DCA 67/2019</h1>
   </div>
 </template>
 

@@ -4,49 +4,49 @@
       <div class="mx-4 dashboard-page-mt">
         <div class="row">
           <div class="col-6 card-mb">
-            <div class="img-a dashboard-box-widget" @click="redirectToPath('/category/CONFIGURAZIONI')">
+            <div class="dashboard-box-widget" @click="redirectToPath('/category/CONFIGURAZIONI')">
               CONFIGURAZIONI
             </div>
           </div>
 
           <div class="col-6 card-mb">
-            <div class="img-a dashboard-box-widget" @click="redirectToPath('/nsg-core-indicators')">
+            <div class="dashboard-box-widget" @click="redirectToPath('/nsg-core-indicators')">
               NSG – INDICATORI CORE
             </div>
           </div>
 
           <div class="col-6 card-mb">
-            <div class="img-a dashboard-box-widget" @click="redirectToPath('/management-area')">
+            <div class="dashboard-box-widget" @click="redirectToPath('/management-area')">
               AREA GESTIONALE – DCA 67/2019
             </div>
           </div>
 
           <div class="col-6 card-mb" @click="redirectToPath('/pharmacy-area')">
-            <div class="img-a  dashboard-box-widget">
+            <div class=" dashboard-box-widget">
               AREA FARMACIA
             </div>
           </div>
 
           <div class="col-6 card-mb" @click="redirectToPath('/pne')">
-            <div class="img-a dashboard-box-widget">
+            <div class="dashboard-box-widget">
               PNE
             </div>
           </div>
 
           <div class="col-6 card-mb" @click="redirectToPath('/prevention')">
-            <div class="img-a dashboard-box-widget">
+            <div class="dashboard-box-widget">
               PREVENZIONE
             </div>
           </div>
 
           <div class="col-6 card-mb" @click="redirectToPath('/status-of-payment')">
-            <div class="img-a dashboard-box-widget">
+            <div class="dashboard-box-widget">
               STATO DEI PAGAMENTI
             </div>
           </div>
 
           <div class="col-6 card-mb" @click="redirectToPath('/staff')">
-            <div class="img-a dashboard-box-widget">
+            <div class="dashboard-box-widget">
               PERSONALE
             </div>
           </div>
@@ -89,6 +89,9 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  background: linear-gradient(to bottom, #27b3b8 0%, #f3f4f4 100%);
+  border: 1px solid #27b3b8 ;
 }
 
 .dashboard-page-mt {
@@ -97,29 +100,5 @@ export default {
 
 .card-mb {
   margin-bottom: 48px;
-}
-
-.img-a {
-  //background-image: url('../assets/image/prevenzione.png');
-  //background-image: url('../assets/image/contesto_ed_equita.png');
-  background-image: url('../assets/image/assistenza-ospedaliera.png');
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-
-.img-b {
-  background-image: url('../assets/image/contesto_ed_equita.png');
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position-y: -156px;
-  background-position-x: -56px;
-}
-
-.img-c {
-  background-image: url('../assets/image/assistenza-ospedaliera.png');
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position-y: -156px;
-  background-position-x: -56px;
 }
 </style>

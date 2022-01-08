@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <h1 class="text-center">Staff</h1>
+    <h1 class="text-center">PERSONALE</h1>
   </div>
 </template>
 
