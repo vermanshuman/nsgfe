@@ -201,8 +201,18 @@ input::placeholder{color: #fff !important;}
     font-family: 'GillSans-Heavy';
     src: local('GillSans-Heavy'), url('../../assets/font/GillSans/GillSansHeavy.otf') format('truetype');
 }
+
+@font-face {
+    font-family: 'Saira-Medium';
+    src: local('Saira-Medium'), url('../../assets/font/saira/Saira-Medium.ttf') format('truetype');
+}
+
+* {
+    font-family: Saira-Medium, sans-serif;
+}
+
 body {
-    font-family: 'GillSans-Medium', serif;
+    font-family: Saira-Medium, sans-serif;
     background: #f3f4f4 !important;
 }
 .home{
