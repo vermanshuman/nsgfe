@@ -2,7 +2,7 @@
   <div class="login-page-container">
   <div class="login_wrp">
     <v-form>
-    <v-img class="logo" width="75%" style="margin-left: 12.5%;" src="@/assets/image/logo_NSG.png"></v-img>
+    <v-img class="logo" width="75%" style="margin-left: 12.5%; margin-top: -10px;" src="@/assets/image/logo-PDA.png"></v-img>
       <div class="error-box" v-if="error" ref="errorBox">
         <v-tooltip top max-width="380" v-if="isEllips">
           <template v-slot:activator="{on}">
@@ -12,7 +12,7 @@
         </v-tooltip>
         <span v-else>{{error}}</span>
       </div>
-      <div :class="$v.username.$dirty && $v.username.$invalid ? 'v-form-input-group-after' : 'v-form-input-group' " >
+      <div :class="$v.username.$dirty && $v.username.$invalid ? 'v-form-input-group-after' : 'v-form-input-group' "  style="margin-top: -10px">
           <div class="v-input__slot">          
             <div class="v-input__prepend-inner">
               <div class="v-input__icon v-input__icon--prepend-inner">

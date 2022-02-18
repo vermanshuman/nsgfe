@@ -4,10 +4,10 @@
       <span class="menu-bars-close"><i class="fa fa-times"></i></span>
       <div class="brand-logo text-center mt-3">
         <router-link to="/home">
-          <img src="../assets/image/logo-NSG.png" id="logo" alt="NSG Logo" />
+          <img src="../assets/image/logo-PDA.png" id="logo" alt="PDA Logo" />
         </router-link>
       </div>
-      <div class="mt-4 menu-btm" style="margin-bottom: 73px;">
+      <div class="menu-btm" style="margin-bottom: 73px; margin-top: -10px">
         <div class="main-parent menu-item menu-item1 mt-4 mb-1 shadow" id="5">
           <div class="menu-item-text" @click="redirectToHome('CONFIGURAZIONI')">
             <div style="margin-top: 14px;">configurazioni</div>
