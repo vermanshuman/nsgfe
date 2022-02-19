@@ -815,3 +815,49 @@ body {
     height: 20px;
     width: 20px;
 }
+
+.dashboard-box-widget {
+    background-repeat: no-repeat !important;
+    background-size: 100% !important;
+    gap: 20px;
+}
+
+.dashboard-box-widget .v-image {
+    max-width: 84px;
+    margin-bottom: 0px !important;
+}
+
+.dashboard-box-widget.configurazioni {
+    background-image: url('../../assets/image/bg-condifurazioni.png') !important;
+    
+}
+
+.dashboard-box-widget.nsg-indicatori-core {
+    background-image: url('../../assets/image/bg-nsg.png') !important;
+    background-position-y: -30px;
+}
+
+.dashboard-box-widget.area-gestionale {
+    background-image: url('../../assets/image/bg-area-gestionale.png') !important;
+}
+
+.dashboard-box-widget.area-farmacia {
+    background-image: url('../../assets/image/bg-area-farmacia.png') !important;
+}
+
+.dashboard-box-widget.pne {
+    background-image: url('../../assets/image/bg-pne.png') !important;
+}
+
+.dashboard-box-widget.prevenzione {
+    background-image: url('../../assets/image/bg-prevenzione.png') !important;
+    background-position-y: -70px;
+}
+
+.dashboard-box-widget.stato-dei-pagamenti {
+    background-image: url('../../assets/image/bg-pagamenti.png') !important;
+}
+
+.dashboard-box-widget.persoale {
+    background-image: url('../../assets/image/bg-personale.png') !important;
+}
