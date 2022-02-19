@@ -13,7 +13,7 @@
             <div style="margin-top: 14px;">configurazioni</div>
           </div>
           <div class="menu-item-icon">
-            <img src="../assets/image/setting.png" alt="" />
+            <img src="../assets/image/icon-configurazione.png" alt="" style="width: 38px;" />
           </div>
           <div class="clearfix"></div>
         </div>
@@ -44,7 +44,7 @@
             <div style="margin-top: 14px;">NSG – INDICATORI CORE</div>
           </div>
           <div class="menu-item-icon">
-            <img src="../assets/image/3.png" alt="" />
+            <img src="../assets/image/icon-nsg.png" alt="" />
           </div>
           <div class="clearfix"></div>
         </div>
@@ -58,7 +58,7 @@
               <div style="margin-top: -8px;">pubblica</div>
             </div>
             <div class="menu-item-icon">
-              <img src="../assets/image/1.png" alt="" />
+              <img src="../assets/image/icon-Prevenzione-collettiva.png" alt="" />
             </div>
             <div class="clearfix"></div>
           </div>
@@ -97,7 +97,7 @@
               <div style="margin-top: -8px;">distrettuale</div>
             </div>
             <div class="menu-item-icon">
-              <img src="../assets/image/2.png" alt="" />
+              <img src="../assets/image/icon-area-distrettuale-1.png" alt="" />
             </div>
             <div class="clearfix"></div>
           </div>
@@ -157,7 +157,7 @@
               <div style="margin-top: -8px;">ed equita</div>
             </div>
             <div class="menu-item-icon">
-              <img src="../assets/image/3.png" alt="" />
+              <img src="../assets/image/icon-contesto-equita.png" alt="" />
             </div>
             <div class="clearfix"></div>
           </div>
@@ -181,7 +181,7 @@
               <div style="margin-top: -8px;">ospedaliera</div>
             </div>
             <div class="menu-item-icon">
-              <img src="../assets/image/4.png" alt="" />
+              <img src="../assets/image/icon-assistenza-ospedaliera-2.png" alt="" style="padding-top: 2px;" />
             </div>
             <div class="clearfix"></div>
           </div>
@@ -216,7 +216,7 @@
             <div style="margin-top: -8px;">67/2019</div>
           </div>
           <div class="menu-item-icon">
-            <img src="../assets/image/3.png" alt="" />
+            <img src="../assets/image/icon-area-gestionale.png" alt="" />
           </div>
           <div class="clearfix"></div>
         </div>
@@ -226,7 +226,7 @@
             <div style="margin-top: 14px;">AREA FARMACIA</div>
           </div>
           <div class="menu-item-icon">
-            <img src="../assets/image/3.png" alt="" />
+            <img src="../assets/image/icon-area-farmacia.png" alt="" />
           </div>
           <div class="clearfix"></div>
         </div>
@@ -236,7 +236,7 @@
             <div style="margin-top: 14px;">PNE</div>
           </div>
           <div class="menu-item-icon">
-            <img src="../assets/image/3.png" alt="" />
+            <img src="../assets/image/icon-pne.png" alt="" />
           </div>
           <div class="clearfix"></div>
         </div>
@@ -246,7 +246,7 @@
             <div style="margin-top: 14px;">PREVENZIONE</div>
           </div>
           <div class="menu-item-icon">
-            <img src="../assets/image/3.png" alt="" />
+            <img src="../assets/image/icon-prevenzione-2.png" alt="" />
           </div>
           <div class="clearfix"></div>
         </div>
@@ -256,7 +256,7 @@
             <div style="margin-top: 14px;">STATO DEI PAGAMENTI</div>
           </div>
           <div class="menu-item-icon">
-            <img src="../assets/image/3.png" alt="" />
+            <img src="../assets/image/icon-stato-pagamenti.png" alt="" />
           </div>
           <div class="clearfix"></div>
         </div>
@@ -266,7 +266,7 @@
             <div style="margin-top: 14px;">PERSONALE</div>
           </div>
           <div class="menu-item-icon">
-            <img src="../assets/image/3.png" alt="" />
+            <img src="../assets/image/icon-personale.png" alt="" />
           </div>
           <div class="clearfix"></div>
         </div>
@@ -287,7 +287,8 @@
         </div>
         <div class="col-lg-8 col-4 ">
           <v-app class="logout" style="float: right;background-color: transparent;">
-            <v-btn text rounded @click="logout" style="background-color: #fff;"> Logout </v-btn>
+            <v-btn text rounded @click="logout" style="background-color: #fff;box-shadow: 0px 0px 5px -2px #585858;">
+              <v-img :src="require('../assets/image/icon-logout.png')" /> Logout </v-btn>
           </v-app>
         </div>
       </section>
