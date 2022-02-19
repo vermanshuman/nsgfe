@@ -238,7 +238,7 @@ body {
     font-weight: 500;
     cursor: pointer;
 }
-.menu-sidebar .menu-sub-item{
+.menu-sidebar .menu-sub-item {
     background: #D6E3E3;
     border-radius: 10px;
     font-weight: 500;
@@ -249,9 +249,14 @@ body {
     padding: 20px;
     display: none;
 }
+.menu-sidebar .menu-sub-item .menu-sub-item {
+    padding: 0px !important;
+    background-color: #fff;
+}
 .menu-sidebar .menu-sub-item ul{
     list-style: none;
-    padding: 0px;
+    padding: 20px;
+    border-radius: 10px !important;
 }
 .menu-sidebar .menu-sub-item ul li{
     padding: 10px;
@@ -860,4 +865,14 @@ body {
 
 .dashboard-box-widget.persoale {
     background-image: url('../../assets/image/bg-personale.png') !important;
+}
+
+.dashboard-box-widget .icon-block {
+    width: 30%;
+    justify-content: center;
+    display: flex;
+}
+
+.dashboard-box-widget .text-block {
+    width: 70%;
 }
