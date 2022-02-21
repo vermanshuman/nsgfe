@@ -95,9 +95,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  background: linear-gradient(to bottom, #27b3b8 0%, #f3f4f4 100%);
-  border: 2px solid #27b3b8 ;
+  border: 2px solid #C4C5C5;
 }
 
 .dashboard-page-mt {
