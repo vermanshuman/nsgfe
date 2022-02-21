@@ -287,8 +287,9 @@
         </div>
         <div class="col-lg-8 col-4 ">
           <v-app class="logout" style="float: right;background-color: transparent;">
-            <v-btn text rounded @click="logout" style="background-color: #fff;box-shadow: 0px 0px 5px -2px #585858;">
-              <v-img :src="require('../assets/image/icon-logout.png')" /> Logout </v-btn>
+            <v-btn text rounded @click="logout" class="logout-btn">
+              Log out <v-img :src="require('../assets/image/icon-logout.png')" />
+            </v-btn>
           </v-app>
         </div>
       </section>

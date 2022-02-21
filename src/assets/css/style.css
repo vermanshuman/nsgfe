@@ -469,7 +469,6 @@ body {
     padding: 10px;
 }
 .main-content .topbar .logout{
-    width: 100px;
     margin-right: 1%;
 }
 
@@ -706,6 +705,9 @@ body {
     .main-content .topbar .search-textbox input{
         width: calc(100% - 85px);
     } 
+    .dashboard-box-widget {
+        min-height: 200px;
+    }
 }
 @media (min-width: 768px) {
     .menu-sidebar{
@@ -759,7 +761,34 @@ body {
     }
     .main-content .topbar .search-textbox input{
         width: calc(100% - 45px);
-    }    
+    }
+    .dashboard-box-widget.configurazioni {
+        background-position-y: -48px;
+    }
+    
+    .dashboard-box-widget.area-gestionale {
+        background-position-y: -54px;
+    }
+    
+    .dashboard-box-widget.area-farmacia {
+        background-position-y: -105px;
+    }
+    
+    .dashboard-box-widget.pne {
+        background-position-y: -55px;
+    }
+    
+    .dashboard-box-widget.prevenzione {
+        background-position-y: -44px;
+    }
+    
+    .dashboard-box-widget.stato-dei-pagamenti {
+        background-position-y: -60px;
+    }
+    
+    .dashboard-box-widget.persoale {
+        background-position-y: -10px;
+    }
 }
 
 .search-row {
@@ -819,6 +848,7 @@ body {
     margin-bottom: 0px !important;
     height: 20px;
     width: 20px;
+    margin-left: 15px;
 }
 
 .dashboard-box-widget {
@@ -828,18 +858,15 @@ body {
 }
 
 .dashboard-box-widget .v-image {
-    max-width: 84px;
     margin-bottom: 0px !important;
 }
 
 .dashboard-box-widget.configurazioni {
     background-image: url('../../assets/image/bg-condifurazioni.png') !important;
-    
 }
 
 .dashboard-box-widget.nsg-indicatori-core {
     background-image: url('../../assets/image/bg-nsg.png') !important;
-    background-position-y: -30px;
 }
 
 .dashboard-box-widget.area-gestionale {
@@ -856,7 +883,6 @@ body {
 
 .dashboard-box-widget.prevenzione {
     background-image: url('../../assets/image/bg-prevenzione.png') !important;
-    background-position-y: -70px;
 }
 
 .dashboard-box-widget.stato-dei-pagamenti {
@@ -868,11 +894,21 @@ body {
 }
 
 .dashboard-box-widget .icon-block {
-    width: 30%;
-    justify-content: center;
+    width: 25%;
     display: flex;
 }
 
 .dashboard-box-widget .text-block {
-    width: 70%;
+    width: 75%;
+    font-size: 25px;
+}
+
+.logout-btn {
+    background-color: rgb(255, 255, 255);
+    box-shadow: none;
+    padding: 10px 10px !important;
+    min-width: 120px !important;
+    border-radius: 10px;
+    border: 1px solid;
+    height: 28px !important;
 }
