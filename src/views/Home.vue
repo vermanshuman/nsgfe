@@ -95,7 +95,8 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #C4C5C5;
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 3px 2px #c4c5c5;
 }
 
 .dashboard-page-mt {
